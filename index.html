@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sliding Puzzle Game</title>
+    <link rel ="stylesheet" href="styles.css"/>
+</head>
+<body>
+    <div class="game-container">
+        <h1>🧩 Sliding Puzzle</h1>
+        <p class="subtitle">Arrange the numbers 1-15 in order!</p>
+        
+        <div class="game-info">
+            <div class="moves-counter">Moves: <span id="moveCount">0</span></div>
+            <button class="shuffle-btn" onclick="shufflePuzzle()">New Game</button>
+        </div>
+        
+        <div class="puzzle-grid" id="puzzleGrid"></div>
+        
+        <div class="win-message" id="winMessage">
+            🎉 Congratulations! You solved the puzzle in <span id="finalMoves">0</span> moves! 🎉
+        </div>
+    </div>
+
+    
+<script src="javascipt.js"></script></body>
+</html>
